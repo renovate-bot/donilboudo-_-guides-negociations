@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Guides des négociations
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-content class="card-background-page">
+    
+      <ion-card type="button" (click)="chooseGuide('climat')">
+        <img src="assets/imgs/climat.jpg"/>
+        <div text-center>CLIMAT</div>
+      </ion-card>
+      <br>
+      <ion-card type="button" (click)="chooseGuide('biodiversite')">
+        <img src="assets/imgs/biodiversite.jpg"/>
+        <div text-center>BIODIVERSITE</div>
+      </ion-card>
+      <br>
+      <ion-card type="button" (click)="chooseGuide('secheresse')">
+        <img src="assets/imgs/secheresse.jpg"/>
+        <div text-center>SECHERESSE</div>
+      </ion-card>
+    
+    </ion-content>
+</ion-content>
